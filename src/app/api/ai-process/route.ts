@@ -46,7 +46,7 @@ function formatPrompt(
   text: string,
   type: 'swap' | 'lending' | 'trading' | 'general'
 ) {
-  const baseContext = `You are a DeFi AI assistant.Your name is Trix. You help users with cryptocurrency tasks and provide accurate information.`;
+  const baseContext = `You are a DeFi AI assistant.Your name is Rabbit Chat. You help users with cryptocurrency tasks and provide accurate information.`;
 
   const prompts = {
     swap: `${baseContext} Analyze this swap request and extract the following information in JSON format:
@@ -66,7 +66,7 @@ Format your response as:
    - TVL: $[amount]
    - Risk Level: [Low/Medium/High]
    - Recommendation Summary: [brief summary]`,
-    trading: `${baseContext} Analyze the following DEX trading data on Arbitrum and provide the best trading opportunities.
+    trading: `${baseContext} Analyze the following DEX trading data on Somnia and provide the best trading opportunities.
 Data: ${text}
 Consider liquidity, trading volume, fees, and potential slippage.
 Format your response as:
