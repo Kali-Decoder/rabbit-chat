@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 export const metadata: Metadata = {
-  title: "Trix | Your AI-Powered DeFi Assistant",
-  description: "Trix is your intelligent DeFi companion for swapping, lending, and trading across multiple chains. Get AI-powered insights and execute DeFi operations with confidence.",
+  title: "Rabbit chat | Your AI-Powered DeFi Assistant",
+  description: "Rabbit chat is your intelligent DeFi companion for swapping, lending, and trading across multiple chains. Get AI-powered insights and execute DeFi operations with confidence.",
 };
 
 export default function RootLayout({
