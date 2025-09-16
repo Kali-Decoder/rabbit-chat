@@ -1290,7 +1290,10 @@ export default function AIAgent() {
         {messages.length === 0 && !(activeTab === "somnia-helper") ? (
           <div className="flex-1 flex flex-col items-center justify-center p-8">
             <div className="rounded-full bg-gray-500/10 p-6 mb-6">
-              <BrainCircuit className="text-gray-400" size={48} />
+              <img
+                  className="text-gray-400 w-30 h-30 rounded-full"
+                  src="https://pbs.twimg.com/profile_images/1896736794810458112/9tsFttK2_200x200.jpg"
+                />
             </div>
             <h2 className="text-2xl font-semibold text-gray-100 mb-3">
               Rabbit AI Assistant
